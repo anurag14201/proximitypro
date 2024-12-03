@@ -1,0 +1,17 @@
+.app-container {
+    max-width: 1200px;
+    /* Limit the max width */
+    margin: 0 auto;
+    /* Center it horizontally */
+    padding: 0 auto;
+    /* Optional padding for spacing on smaller screens */
+}
+
+/* Optional styles for NavBar, Body, and Footer to align them within the centered container */
+.navbar,
+.footer,
+.body {
+    width: 100%;
+    /* Ensures full width within the container */
+    text-align: center;
+}
